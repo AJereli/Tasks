@@ -61,11 +61,11 @@ Score: 1330
 Name: Auto2
 Score: 231
 ---
-Исходные массивы:
-CollMans:
+Исходные массивы: <br />
+CollMans: <br /> <br />
 [{"Score":32,"Name":"Alex"},{"Score":1,"Name":"Nik"},{"Score":105,"Name":"Sasha"},{"Score":30,"Name":"Rik"},{"Score":150,"Name":"Rik"},{"Score":10,"Name":"Richard"},{"Score":10,"Name":"Den"},{"Score":120,"Name":"Morty"}]
 
-Autos:
+Autos: <br /> <br />
 
 [{"Price":32222,"Title":"Auto"},{"Price":231,"Title":"Auto2"},{"Price":112305,"Title":"Auto8"},{"Price":30123,"Title":"Auto6"},{"Price":13250,"Title":"Auto3"},{"Price":11230,"Title":"Auto7"},{"Price":1330,"Title":"Auto4"},{"Price":121230,"Title":"Auto5"}]
 
@@ -76,16 +76,16 @@ Autos:
 
 Пример для матрица 3 на 3
 
-0 1 2\n
-7 8 3 
+0 1 2 <br />
+7 8 3  <br />
 6 5 4 
 
 SNAKE
-0 1 2 3 4 
-15 16 17 18 5 
-14 23 24 19 6 
-13 22 21 20 7 
-12 11 10 9 8 
+0 1 2 3 4  <br />
+15 16 17 18 5  <br />
+14 23 24 19 6  <br />
+13 22 21 20 7  <br />
+12 11 10 9 8  <br />
 
 
 # Ранжирование результатов запроса в базе данных документа 
