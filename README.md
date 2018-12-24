@@ -7,6 +7,7 @@
 
 В качестве массива данных испльзует массив структур CoolMan (int Score, string Name) в формате JSON
 Результат сортировки по очкам
+
 QSorting TASK
 
 Name: Rik
@@ -36,36 +37,48 @@ Score: 1
 
 QSorting TASK
 
-Name: Alex
-Score: 322
+Name: Auto5
+Score: 121230
 ---
-Name: Rik
-Score: 150
+Name: Auto8
+Score: 112305
 ---
-Name: Morty
-Score: 120
+Name: Auto
+Score: 32222
 ---
-Name: Sasha
-Score: 105
+Name: Auto6
+Score: 30123
 ---
-Name: Rik
-Score: 30
+Name: Auto3
+Score: 13250
 ---
-Name: Den
-Score: 10
+Name: Auto7
+Score: 11230
 ---
-Name: Richard
-Score: 10
+Name: Auto4
+Score: 1330
 ---
-Name: Nik
-Score: 1
+Name: Auto2
+Score: 231
 ---
+Исходные массивы:
+CollMans:
+[{"Score":32,"Name":"Alex"},{"Score":1,"Name":"Nik"},{"Score":105,"Name":"Sasha"},{"Score":30,"Name":"Rik"},{"Score":150,"Name":"Rik"},{"Score":10,"Name":"Richard"},{"Score":10,"Name":"Den"},{"Score":120,"Name":"Morty"}]
 
+Autos:
+
+[{"Price":32222,"Title":"Auto"},{"Price":231,"Title":"Auto2"},{"Price":112305,"Title":"Auto8"},{"Price":30123,"Title":"Auto6"},{"Price":13250,"Title":"Auto3"},{"Price":11230,"Title":"Auto7"},{"Price":1330,"Title":"Auto4"},{"Price":121230,"Title":"Auto5"}]
 
 # Заполнение массива NxM спиралькой
 Для решения этой задачи был реализован простой алгоритм "В лоб". 
 Для улучшения производительности использует простой двумерный массив.
 Для улучшения читабельности кода используется перечесление SnakeDirrection
+
+Пример для матрица 3 на 3
+
+0 1 2 
+7 8 3 
+6 5 4 
 
 SNAKE
 0 1 2 3 4 
